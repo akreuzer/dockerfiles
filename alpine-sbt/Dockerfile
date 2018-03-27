@@ -1,6 +1,6 @@
-FROM openjdk:jre-alpine
+FROM openjdk:jdk-alpine
 
-ENV sbt_version 1.1.1
+ENV sbt_version 1.1.2
 ENV sbt_home /usr/local/sbt
 ENV PATH ${PATH}:${sbt_home}/bin
 
